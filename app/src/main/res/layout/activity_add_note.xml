@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#CFCCCC"
+    android:background="#9f9f9f"
     android:padding="10dp"
     tools:context=".AddNoteActivity">
 
     <TextView
         android:id="@+id/titleTextview"
+        android:textColor="#404040"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/add_new_note"
@@ -32,9 +33,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/titleInput"
+            android:textColor="#404040"
             android:hint="@string/title"
             android:padding="10dp"
-            android:background="@color/white"
+            android:background="#e6e6e6"
             android:layout_margin="10dp"/>
 
         <EditText
@@ -42,7 +44,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/descriptionInput"
             android:hint="@string/description"
-            android:background="@color/white"
+            android:textColor="#404040"
+            android:background="#e6e6e6"
             android:padding="10dp"
             android:gravity="top"
             android:lines="5"
@@ -55,7 +58,7 @@
         android:id="@+id/savebutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#0059FE"
+        android:backgroundTint="#427dde"
         android:text="@string/save_new_note"
         android:textAlignment="center"
         android:textSize="20sp">
