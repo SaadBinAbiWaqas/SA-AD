@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CFCCCC"
+    android:padding="10dp"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/titleTextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_note"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:layout_margin="20dp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleInput"
+            android:hint="@string/title"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionInput"
+            android:hint="@string/description"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:gravity="top"
+            android:lines="5"
+            android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/savebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0059FE"
+        android:text="@string/save_new_note"
+        android:textAlignment="center"
+        android:textSize="20sp">
+
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

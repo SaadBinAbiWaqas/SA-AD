@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">notesApp</string>
+    <string name="my_notes">My Notes</string>
+    <string name="add_new_note">Add new Note</string>
+    <string name="planner">Planner</string>
+    <string name="notesapp">NotesApp</string>
+    <string name="developed_by_nsaad">Developed by \nSaad</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="planner_string">Planner</string>
+    <string name="navigation_drawer_open"> Open navigation drawer</string>
+    <string name="navigation_drawer_close"> Close navigation drawer</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="save_new_note">Save New Note</string>
+</resources>
