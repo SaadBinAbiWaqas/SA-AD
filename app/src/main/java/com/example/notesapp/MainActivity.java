@@ -57,14 +57,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
-//         button to go to planner activity from menu bar
-//        MaterialButton planer = findViewById(R.id.nav_calender);
-//        planer.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(MainActivity.this, planner.class));
-//            }
-//        });
+
 
         // defining hooks
         drawerLayout = findViewById(R.id.drawerLayout);
